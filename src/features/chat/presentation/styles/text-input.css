@@ -1,0 +1,39 @@
+.input-container {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    gap: 8px;
+    padding: 10px;
+    background-color: var(--vscode-editor-background);
+    border-top: 1px solid var(--vscode-widget-border);
+    z-index: 1000;
+}
+
+#user-input { 
+    flex-grow: 1;
+    padding: 8px 12px;
+    background: var(--vscode-input-background);
+    color: var(--vscode-input-foreground);
+    border: 1px solid var(--vscode-input-border);
+    border-radius: 4px;
+    resize: none;
+    min-height: 20px;
+    max-height: 150px;
+    overflow-y: hidden;
+    line-height: 20px;
+}
+
+#send-button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 8px;
+    font-size: 12px;
+    color: var(--vscode-button-foreground);
+}
+
+#send-button:hover {
+    color: var(--vscode-button-hover-foreground);
+}

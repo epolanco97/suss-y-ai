@@ -1,0 +1,24 @@
+.command-menu {
+    position: absolute;
+    bottom: 100%;
+    left: 0;
+    right: 0;
+    background: var(--vscode-dropdown-background);
+    border: 1px solid var(--vscode-dropdown-border);
+    border-radius: 4px;
+    margin-bottom: 8px;
+    display: none;
+    overflow: hidden;
+}
+
+.command-menu.show {
+    display: block;
+}
+
+.command-item {
+    padding: 8px 12px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}

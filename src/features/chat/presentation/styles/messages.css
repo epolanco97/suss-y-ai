@@ -1,0 +1,29 @@
+.message {
+    display: flex;
+    margin-bottom: 16px;
+    max-width: 100%;
+}
+
+.message-content {
+    background-color: var(--vscode-widget-shadow);
+    border-radius: 6px;
+    padding: 8px 12px;
+    max-width: 80%;
+}
+
+.user-message {
+    justify-content: flex-end;
+}
+
+.user-message .message-content {
+    background-color: var(--vscode-button-background);
+    color: var(--vscode-button-foreground);
+}
+
+.ai-message {
+    justify-content: flex-start;
+}
+
+.ai-message .message-content {
+    background-color: var(--vscode-widget-shadow);
+}

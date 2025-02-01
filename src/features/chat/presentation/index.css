@@ -1,0 +1,6 @@
+@import '../../../core/theme/theme.css';
+@import 'styles/chat.css';
+@import 'styles/messages.css';
+@import 'styles/text-input.css';
+@import 'styles/commands.css';
+@import 'styles/code-block.css';

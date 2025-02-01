@@ -1,0 +1,29 @@
+code[class*="language-"] {
+    font-family: Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace;
+}
+
+pre[class*="language-"] {
+    background: var(--vscode-editor-background) !important;
+    border: 1px solid var(--vscode-widget-border);
+    padding: 1em;
+    margin: 0.5em 0;
+    overflow: auto;
+    border-radius: 4px;
+}
+
+.code-block {
+    background: var(--vscode-editor-background);
+    border: 1px solid var(--vscode-widget-border);
+    border-radius: 4px;
+    padding: 8px;
+    margin: 8px 0;
+    overflow-x: auto;
+    font-family: monospace;
+}
+
+.token.comment { color: #6a9955; }
+.token.keyword { color: #569cd6; }
+.token.string { color: #ce9178; }
+.token.function { color: #dcdcaa; }
+.token.class-name { color: #4ec9b0; }
+.token.number { color: #b5cea8; }
